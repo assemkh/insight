@@ -265,45 +265,8 @@ background: rgba(23, 24, 24, 0.9);
   color: #47b2e4;
 }
 
-.navbar-mobile .getstarted,
-.navbar-mobile .getstarted:focus {
-  margin: 15px;
-  color: #37517e;
-}
 
-.navbar-mobile .dropdown ul {
-  position: static;
-  display: none;
-  margin: 10px 20px;
-  padding: 10px 0;
-  z-index: 99;
-  opacity: 1;
-  visibility: visible;
-  background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-}
 
-.navbar-mobile .dropdown ul li {
-  min-width: 200px;
-}
-
-.navbar-mobile .dropdown ul a {
-  padding: 10px 20px;
-}
-
-.navbar-mobile .dropdown ul a i {
-  font-size: 12px;
-}
-
-.navbar-mobile .dropdown ul a:hover,
-.navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover>a {
-  color: #47b2e4;
-}
-
-.navbar-mobile .dropdown>.dropdown-active {
-  display: block;
-}
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -357,32 +320,9 @@ background: rgba(23, 24, 24, 0.9);
 
 }
 
-.startnw{
-  width: 260px;
- margin: 40px 0 ;
- position: absolute;
-}
 
 
-.rectangle {
 
-
-  width: 220px;
-  height: 60px;
-  margin: 40px 41% ;
-
-  background: #fff;
-}
-
-.rectangle-right {
-
-
-  width: 220px;
-  height: 60px;
-  margin: 40px 78% ;
-
-  background: #D8315B;
-}
 
 
 #hero .btn-get-started {
@@ -399,31 +339,8 @@ font-family: 'Tajawal', sans-serif;
   background: #437B8D;
 }
 
-#hero .btn-get-started:hover {
 
-}
 
-#hero .btn-watch-video {
-  font-size: 16px;
-  display: flex;
-  align-items: center;
-  transition: 0.5s;
-  margin: 10px 0 0 25px;
-  color: #fff;
-  line-height: 1;
-}
-
-#hero .btn-watch-video i {
-  line-height: 0;
-  color: #fff;
-  font-size: 32px;
-  transition: 0.3s;
-  margin-right: 8px;
-}
-
-#hero .btn-watch-video:hover i {
-  color: #47b2e4;
-}
 
 #hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
@@ -479,13 +396,9 @@ font-family: 'Tajawal', sans-serif;
   #hero .hero-img img {
     width: 80%;
   }
-.startnw{
-      padding: 10px 24px 11px 24px;
-}
 
-.recvide{
-  padding: 10px 24px 11px 24px;
-}
+
+
   #hero .btn-get-started {
     font-size: 16px;
     padding: 10px 24px 11px 24px;
@@ -868,7 +781,7 @@ section {
 }
 
 .aboutus .content {
- 
+
 }
 
 .aboutus .content h3 {
@@ -943,14 +856,14 @@ section {
   .aboutus .abtus-bg{
     width: 350px;
     position: absolute;
-    
+
     filter: blur(0.5px);
     opacity: 55%;
-  
+
   }
 
   .aboutus .content {
-    
+
   }
 
   .aboutus .content h3 {
@@ -1177,23 +1090,6 @@ section {
   border: 1px solid #47b2e4;
 }
 
-.actv .buy-btn:hover {
-  background: #47b2e4;
-  color: #fff;
-}
-
-.actv .featured {
-  border-top-color: #47b2e4;
-}
-
-.actv .featured .buy-btn {
-  background: #47b2e4;
-  color: #fff;
-}
-
-.actv .featured .buy-btn:hover {
-  background: #23a3df;
-}
 
 @media (max-width: 992px) {
   .actv .box {
